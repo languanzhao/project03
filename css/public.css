@@ -1,0 +1,28 @@
+.content{width: auto;height: auto;}
+.banner{width: auto;height: 400px;position: relative;}
+.banner img{width:1920px;height:400px;position: absolute;left: 50%;margin-left: -960px;}
+
+.content .main{width: 1200px;height: auto;padding-top:30px;margin:0px auto;}
+.main .title{width: 200px;height: 120px;background: #00a8a8;}
+.main .main_left{float: left;}
+.main_left .title span{display: block;width: 142px;height: 2px;background: #FFFFFF;margin:4px auto;font-family: "Arial";font-size: 24px;}
+.main_left .title h2{text-align: center;padding-top: 34px;color: #fffefe;font-family: "微软雅黑";font-size: 28px;}
+.main_left .title h3{text-align: center;color: #FFFFFF;}
+.main_left ul{width: 196px;height: auto;border: 2px solid #00A8A8;}
+.main_left ul li{width: 142px;height: 62px;border-bottom: 2px solid #00A8A8;margin: 0px 27px;text-align: center;}
+.main_left ul li a{text-align: center;line-height: 62px;font-family: "微软雅黑";font-size: 20px;color: #333333;}
+.main_left ul li a:hover{color:#00A8A8 ;}
+
+.main .main_left ul .border{border: 0 none;}
+
+.content .location .position{margin-right: 6px;}
+
+.content .location{width: 1200px;margin: 0 auto;border-bottom: 1px solid #b1b1b1;height: 50px;}
+.location ol{width: auto;height: 50px;float: right;}
+.location ol li{float: left;text-align: center;line-height: 50px;}
+.location ol li a{font-family: "宋体";font-size: 14px;color: #666666;}
+.location ol li a:hover{color: #00a8a8;}
+.location ol li .on{color: #00a8a8;}
+.location ol li span{margin: 0px 4px;text-align: center;line-height: 50px;font-family: "宋体";font-size: 14px;color: #666666;}
+
+.main .main_left ul li .on{color: #00a8a8;}

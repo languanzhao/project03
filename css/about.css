@@ -1,0 +1,8 @@
+.about_main_right{width: 950px;height:auto;float: right;
+	margin-bottom: 23px;}		/*图片与文字不对齐,相差7px,故30-7-23px;则图片用padding-top:7px;*/
+
+.main .about_main_right img{width:513px;height:300px;float: left;margin: 0px 20px 5px 0px;
+		padding-top: 7px;}  /*则图片用padding-top:7px;*/
+.about_main_right p{text-indent: 2em;line-height: 30px;margin-bottom: 20px;font-family: "微软雅黑";font-size: 16px;color: #333333;}
+
+

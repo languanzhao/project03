@@ -1,0 +1,22 @@
+.product_main_right{width: 950px;height:auto;float: right;margin-bottom: 30px;}
+.product_main_right ul{width: 1000px ;height:300px;margin-bottom: 50px;}
+.product_main_right ul li{width: 288px;height: 288px;border: 1px solid #bababa;float: left;margin-right: 40px;margin-bottom: 40px;position: relative;overflow: hidden;}
+.product_main_right ul li p{width: 288px;height: 50px;background: rgba(0,0,0,0.6);position: absolute;top: 239px;left: 1px;}
+.product_main_right ul li p a{display:block;text-align: center;line-height: 50px;font-family: "微软雅黑";font-size: 20px;color: #FFFFFF;}
+.product_main_right ul li:hover{border: 1px solid #00A8A8;}
+.product_main_right ul li:hover p{background: rgba(0,168,168,0.6)}
+
+
+.page{width: 950px;height: 30px;margin-bottom: 50px;clear: both;}       /* margin-top无法设置*/
+.page ol{width:auto;height:30px;text-align: center;}
+.page ol li{width: 50px;height: 30px;background: #F8F8F8;margin: 0 10px;line-height: 30px;display: inline-block;}
+.page ol li a{display:block;font-family: "微软雅黑";font-size: 16px;color: #666666;}
+.page ol a:hover{background: #00A8A8;color: #FFFFFF;}
+
+.page ol .prev{width: 80px;height: 30px;}
+.page ol .prev:hover{background: #00A8A8;}
+.page ol .next{width: 80px;height: 30px;}
+.page ol .next:hover{background: #00A8A8;}
+
+.page ol .on{background: #00A8A8;}
+.page ol .on a{color:#FFFFFF}

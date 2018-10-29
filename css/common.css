@@ -1,0 +1,72 @@
+body,p,input,form,h1,h2,h3,h4,h5,h6,ul,dl,dt,dd,ol,li,a{margin: 0px;padding: 0px;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+
+.header .header_bottom ul li .current{background: #00a8a8;color: #FFFFFF;} 
+					/*第二种方法:给a命名current,因为a 嵌套span所以 			
+					ul li .current{background: background:#00A8A8;
+					ul li .current span{color: #FFFFFF;*/
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*头部上部分*/
+.header{width:auto;height: 160px;}
+.header_top{width:auto;height: 40px;background:#333333;}
+.header_top_main{width: 1200px;height: 40px;margin: 0 auto;}
+
+/*头部上面的左边部分*/
+.header_top h2{float: left;font-family: "宋体";font-size: 14px;color: #ffffff;line-height: 40px;}
+
+/*头部上面的右边部分*/
+.header_top .form{width: 180px;height: 20px;border-radius: 10px;background:#FFFFFF;float: right;line-height: 20px;margin:10px 11px 0px 0px}
+.header_top form{width: 164px;height: 20px;padding: 0 8px;}
+.header_top .text{width: 137px;   /*高为143px,但由于padding-left:6px;此时宽度已经变宽多6px;所以要在原本宽度减去6px,得到137px*/
+					height: 20px;border: 0 none;float: left;
+					font-family: "微软雅黑";font-size: 14px;color: #9e9d9d;padding-left:6px;line-height: 20px;}
+.header_top .buttom{width: 21px;height: 20px;border: 0 none;float: left;background:#FFFFFF url(../img/index_header_search.png) no-repeat center;cursor: pointer;}
+
+/*头部上面的最右边部分*/
+.header_top p{float: right;font-family: "宋体";font-size: 14px;color: #ffffff;line-height: 40px;}
+.header_top span{color: #00f6f6;}
+
+/*头部下部分*/
+.header_bottom{width:1200px;height: 120px;margin: 0 auto;}
+/*头下左*/
+.header_bottom img{width: 89px;height: 118px;line-height: 120px;float: left;text-indent: -19.5px;}
+.header_bottom h1{float: left;font-family: "微软雅黑";font-size: 37px;color: #00a8a8;font-weight: normal;
+					padding:27.5px 0px;}		/*可令a标签里嵌套的span一起垂直居中*/
+.header_bottom p{font-family: "Arial";font-size: 12px;color: #00A8A8;}
+/*头下右*/
+.header_bottom ul {float: right;width: auto;height: 120px;}
+.header_bottom ul li{float: left;width: 144px;height: 120px;text-align: center;}
+.header_bottom ul li a:hover{background: #00a8a8;color: #FFFFFF;}
+.header_bottom ul li a:hover span{color: #FFFFFF;}
+.header_bottom ul li span{color: #999999;display: block;font-family: "Arial";font-size: 12px;color: #999999;}
+.header_bottom ul li a{display:block;width:144px;height:auto; 
+					padding:40px 0px;			/*可令a标签里嵌套的span一起垂直居中*/
+					font-family: "微软雅黑";font-size: 18px;color: #333333;}
+
+/*尾部*/
+.footer{width: auto;height: 296px;}
+.footer_top{width: auto;height: 256px;background: #333333;}
+.footer_top_main{width: 1200px;height: 256px;margin: 0 auto;padding-top: 48px;}
+/*尾部左边*/
+.footer_top_main dl{width: 126px;height: auto;float: left;}
+.footer_top_main dt{width: auto;height: auto;padding-bottom: 8px;font-family: "微软雅黑";font-size: 16px;color: #FFFFFF;}
+.footer_top_main dd a{width: auto;height: auto;padding-bottom: 6px;font-family: "宋体";font-size: 12px;color: #cccccc;}
+/*尾部中间部分*/
+.footer_top_center{width: 324px;height: 169px;border-left:1px solid #575757 ;border-right:1px solid #575757 ;float: left;padding-left: 28px;}
+.footer_top_center h3{font-family: "微软雅黑";font-size: 20px;color: #fcfcfc;font-weight: normal;}
+.footer_top_center ol{margin-top: 28px;}
+.footer_top_center ol li{font-family: "微软雅黑";font-size: 14px;color: #FFFFFF;margin-bottom: 6px;}
+
+/*尾部右边*/
+.foot_top_right{float: right;text-align: center;margin-right: 32px;}
+.foot_top_right img{width: 130px;height: 130px;}
+.foot_top_right p{font-family: "宋体";font-size: 12px;color: #FFFFFF;margin-top: 8px;} 
+
+
+.copyright{width: auto;height: 40px;background: #0a0a0a;text-align: center;line-height: 40px;font-family: "宋体";font-size: 12px;color: #FFFFFF;}

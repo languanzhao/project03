@@ -1,0 +1,25 @@
+.product_detail_right{width: 950px;height:auto;float: right;}
+.product_detail_pic{width: 476px;height: 476px;border: 2px solid #e0e0e0;margin-bottom: 13px;float: left;}
+
+.product_detail_right ul{width: 500px;height: 120px;text-align: center;overflow: hidden;}
+.product_detail_right ul li{width: 116px;height: 116px;border: 2px solid #e0e0e0;float: left;margin-right: 16px;}
+.product_detail_right ul li:hover{border: 2px solid #00A8A8;}
+.product_detail_right ul .prev{width: 26px;height: 116px;background: url(../img/prodetail_prev.png) no-repeat center center;}
+.product_detail_right ul .prev:hover{background: url(../img/prodetail_prev_hover.png) no-repeat center center;border: 2px solid #e0e0e0;}
+.product_detail_right ul .next{width: 26px;height: 116px;background: url(../img/prodetail_next.png) no-repeat center center;}
+.product_detail_right ul .next:hover{background: url(../img/prodetail_next_hover.png) no-repeat center center;border: 2px solid #e0e0e0;}
+
+
+.detail_content{width: 442px;height: auto;float: right;}
+.detail_content dt{font-family: "微软雅黑";font-size: 30px;color: #333333;margin-bottom: 44px;}
+.detail_content dd{font-family: "微软雅黑";font-size: 18px;color: #333333;margin-bottom: 36px;}
+.detail_content p{font-family: "微软雅黑";font-size: 16px;color: #666666;padding-top: 6px;}
+
+.detail_bottom h5{font-family: "微软雅黑";font-size: 24px;color: #FFFFFF;width: 200px;height: 50px;background: #00A8A8;text-align: center;line-height: 50px;margin: 40px 0px 16px 0px;}
+.detail_bottom p{font-family: "微软雅黑";font-size: 16px;color: #666666;line-height: 30px;text-indent: 2em;}
+
+.news_right_bottom{width: 950px;height: 40px;background: #f1f1f1;margin: 42px 0px 104px 0px;}
+.news_right_bottom h3{font-family: "微软雅黑";font-size: 16px;color: #666666;float: left;line-height: 40px;}
+.news_right_bottom h4{font-family: "微软雅黑";font-size: 16px;color: #666666;float: right;line-height: 40px;}
+.news_right_bottom h3 a{font-family: "微软雅黑";font-size: 16px;color: #666666;}
+.news_right_bottom  a:hover{color: #00A8A8;}
